@@ -5,7 +5,7 @@ import EducationIcon from "../../assets/about/education.png";
 const About = () => {
   return (
     <>
-      <section id="about" className="pt-[4vh] mx-[10rem] box-border min-h-auto">
+      <section id="about" className="pt-[4vh] box-border min-h-auto">
         <p className="text-center w-full">Get To Know More</p>
         <h1 className="text-center text-3xl mb-6">About Me</h1>
         <div className="flex justify-center items-center">

@@ -18,7 +18,7 @@ const Projects = () => {
       name: "NextLevel Foodies",
       imgSrc: Foodies,
       tech: "Next JS, React JS",
-      desc: "Crafted a dynamic, user-friendly foodies application for efficient recipe management and seamless user experience.",
+      desc: "Crafted a dynamic, user-friendly foodies application for efficient recipe management.",
     },
     {
       name: "Instasure",
@@ -57,12 +57,12 @@ const Projects = () => {
       >
         <div
           className="flex lg:flex-row  flex-col justify-center items-center rounded-3xl border 
-    border-gray-400 border-solid p-4 w-full h-[325px] md:h-[325px]"
+    border-gray-400 border-solid p-4 w-full h-auto"
         >
           <img
             src={project1.imgSrc}
             alt={project1.name}
-            className="h-[200px] w-[300px]"
+            className="h-52 w-80 md:h-48"
           />
           <div className="flex flex-col text-center md:text-left mt-4 md:mt-0 md:ml-4 md:max-w-[300px]">
             <h2 className="text-xl text-center font-bold">{project1.name}</h2>
@@ -72,7 +72,7 @@ const Projects = () => {
         </div>
         <div
           className="flex lg:flex-row flex-col-reverse justify-center items-center rounded-3xl border 
-    border-gray-400 border-solid p-4 w-full h-[325px] md:h-[325px]"
+    border-gray-400 border-solid p-4 w-full h-auto"
         >
           <div className="flex flex-col text-center md:text-left mt-4 md:mt-0 md:mr-4 md:max-w-[300px]">
             <h2 className="text-xl text-center font-bold">{project2.name}</h2>
@@ -82,7 +82,7 @@ const Projects = () => {
           <img
             src={project2.imgSrc}
             alt={project2.name}
-            className={`h-[200px] w-[300px] `}
+            className="h-52 w-80 md:h-48"
           />
         </div>
       </div>
