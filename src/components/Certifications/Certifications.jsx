@@ -16,7 +16,7 @@ const Certifications = () => {
   return (
     <>
       <section id="certifications">
-        <div className="w-full px-4 md:w-3/4 lg:w-2/3 xl:w-3/4 mx-auto mt-20 max-w-screen-xl">
+        <div className="w-full px-4 md:w-3/4 lg:w-2/3 xl:w-3/4 mx-auto mt-24 max-w-screen-xl">
           <p className="text-center">Unveil my</p>
           <h1 className="text-3xl text-center">Certifications</h1>
           <div className="flex flex-col md:flex-row justify-center items-center gap-8 mb-8 mt-8">

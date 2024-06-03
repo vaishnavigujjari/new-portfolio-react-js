@@ -7,7 +7,7 @@ const Contact = () => {
     <>
       <section
         id="contact"
-        className="flex flex-col items-center justify-center pt-6vh mx-0 my-6 box-border min-h-0 h-auto"
+        className="flex flex-col items-center justify-center mt-24 mx-0 my-6 box-border min-h-0 h-auto"
       >
         <p className="mt-8 text-center">Get in Touch</p>
         <h1 className="text-center text-3xl mb-6">Contact Me</h1>

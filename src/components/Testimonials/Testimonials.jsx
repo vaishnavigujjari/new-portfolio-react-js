@@ -42,10 +42,10 @@ const Testimonials = () => {
   ];
 
   return (
-    <section id="testimonials" className="py-10 md:py-20">
+    <section id="testimonials" className="mt-24">
       <div className="container mx-auto px-4">
         <p className="text-center">Read What Others Say</p>
-        <h1 className="text-3xl text-center mt-4 mb-8">Testimonials</h1>
+        <h1 className="text-3xl text-center mb-8">Testimonials</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 justify-center">
           {items.map((item, index) => (
             <div
