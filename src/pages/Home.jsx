@@ -6,6 +6,7 @@ import Experience from "../components/Experience";
 import Projects from "../components/Projects";
 import Certifications from "../components/Certifications";
 import Publications from "../components/Publications";
+import Leadership from "../components/Leadership";
 import Testimonials from "../components/Testimonials";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
@@ -20,6 +21,7 @@ const Home = () => {
       <Projects />
       <Certifications />
       <Publications />
+      <Leadership />
       <Testimonials />
       <Contact />
       <Footer />

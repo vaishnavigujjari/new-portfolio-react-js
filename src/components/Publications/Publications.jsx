@@ -13,7 +13,7 @@ const Publications = () => {
 
   return (
     <>
-      <section id="projects" className="mt-24">
+      <section id="publications" className="mt-24">
         <p className="text-center">Browse my recent</p>
         <h1 className="text-3xl text-center">Publications</h1>
         <div className="w-full px-4 md:w-3/4 lg:w-2/3 xl:w-3/4 mx-auto mt-8 max-w-screen-xl">
