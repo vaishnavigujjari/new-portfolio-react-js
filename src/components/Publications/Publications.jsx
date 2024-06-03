@@ -30,7 +30,12 @@ const Publications = () => {
                 />
                 <div className="text-center md:text-left ml-4">
                   <h2 className="text-xl font-bold">{item.name}</h2>
-                  <a href={item.link} target="_blank" className="pointer">
+                  <a
+                    href={item.link}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="pointer"
+                  >
                     <p className="mt-2">{item.link}</p>
                   </a>
                   <p className="mt-2">{item.desc}</p>

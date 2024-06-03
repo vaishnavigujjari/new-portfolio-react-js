@@ -50,7 +50,7 @@ const Testimonials = () => {
           {items.map((item, index) => (
             <div
               key={index}
-              className="rounded-3xl border flex-wrap border-gray-400 border-solid p-4 justify-center md:w-76 h-72"
+              className="rounded-3xl border flex-wrap border-gray-400 border-solid p-4 justify-center md:w-76 h-auto"
             >
               <div className="mb-4">
                 <div className="text-gray-900 text-center font-bold text-lg mb-2">
