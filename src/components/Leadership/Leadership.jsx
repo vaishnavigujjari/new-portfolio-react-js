@@ -51,7 +51,9 @@ const Leadership = () => {
       <section id="leadership" className="mt-24">
         <div className="container mx-auto px-4">
           <p className="text-center">Contributions beyond resume</p>
-          <h1 className="text-3xl text-center mb-8">Other Experience</h1>
+          <h1 className="text-3xl text-center mb-8">
+            Leadership / Other Experience
+          </h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-3 justify-center">
             {items.map((item, index) => (
               <div
