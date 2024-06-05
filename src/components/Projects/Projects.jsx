@@ -11,7 +11,7 @@ const Projects = () => {
     {
       name: "Resurge",
       imgSrc: Resurge,
-      tech: "React JS, JavaScript",
+      tech: "React JS",
       desc: "Revolutionized job application tracking with a user-friendly platform, featuring comprehensive company listings.",
     },
     {
@@ -35,8 +35,8 @@ const Projects = () => {
     {
       name: "House Price Prediction",
       imgSrc: HPP,
-      tech: "Python, Data Cleaning",
-      desc: "Built precise property valuation model in Python, optimizing with tuning, delivering insights.",
+      tech: "Python",
+      desc: "Built precise property valuation model in Python, optimizing with one-hot encoding, tuning, delivering insights.",
     },
     {
       name: "Emotion Detector",

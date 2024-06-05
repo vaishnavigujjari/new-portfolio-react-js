@@ -29,7 +29,7 @@ const Skills = () => {
           {items.map((itemGroup, index) => (
             <div
               key={index}
-              className="flex items-center justify-center  flex-row"
+              className="flex items-center justify-center flex-row"
             >
               <div
                 key={index}
