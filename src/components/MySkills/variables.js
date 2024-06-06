@@ -126,6 +126,10 @@ const Others = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/confluence/confluence-original-wordmark.svg",
   },
   {
+    name: "Visual Studio Code",
+    imgSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original-wordmark.svg",
+  },
+  {
     name: "Anaconda",
     imgSrc:
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/anaconda/anaconda-original.svg",
