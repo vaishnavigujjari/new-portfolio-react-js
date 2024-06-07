@@ -3,9 +3,28 @@ import Sairam from "../../assets/testimonials/sairam.jpeg";
 import Sirisha from "../../assets/testimonials/sirisha.jpeg";
 import Swathi from "../../assets/testimonials/swathi.jpeg";
 import Nikhil from "../../assets/testimonials/nikhil.jpeg";
+import Sita from "../../assets/testimonials/sita.jpeg";
 
 const Testimonials = () => {
   const items = [
+    {
+      name: "Sai Nikhil Reddy Vatti",
+      imgSrc: Nikhil,
+      desc: "Under her guidance, every intern developed their skills to the extent that they were all successfully offered full-time positions.",
+      designation: "Full Stack Developer, eIQ Digital",
+      color: "bg-pink-100",
+      title:
+        "She is an exceptional team player and a highly dedicated professional.",
+    },
+    {
+      name: "Sita Pallacholla",
+      imgSrc: Sita,
+      desc: "We found Vaishnavi extremely hardworking and willing to learn and adapt new concepts.",
+      designation: "CEO, WE Hub and Founder, The Angel Hub",
+      color: "bg-pink-100",
+      title:
+        "Vaishnavi's association with the project was very fruitful.",
+    },
     {
       name: "Sairam Utukuru",
       imgSrc: Sairam,
@@ -29,15 +48,6 @@ const Testimonials = () => {
       designation: "Assistant Professor, CBIT",
       color: "bg-fuchsia-100",
       title: "Vaishnavi is a multitasker and a voracious student.",
-    },
-    {
-      name: "Sai Nikhil Reddy Vatti",
-      imgSrc: Nikhil,
-      desc: "Under her guidance, every intern developed their skills to the extent that they were all successfully offered full-time positions.",
-      designation: "Full Stack Developer, eIQ Digital",
-      color: "bg-pink-100",
-      title:
-        "She is an exceptional team player and a highly dedicated professional.",
     },
   ];
 
