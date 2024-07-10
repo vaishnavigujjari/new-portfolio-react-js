@@ -23,7 +23,7 @@ const Contact = () => {
           <div className="flex items-center justify-center gap-2 m-4">
             <img src={LinkedIn} alt="LinkedIn icon" className="pointer h-7" />
             <p className="text-lg">
-              <a href="https://www.linkedin.com">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/vaishnavigujjari">LinkedIn</a>
             </p>
           </div>
         </div>
